@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Гра "Знайди найбільш повторювані слова"</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ласкаво просимо до Гри "Знайди найбільш повторювані слова"!</h1>
+        <nav>
+            <ul>
+                <li><a href="Login.html">Авторизація</a></li>
+                <li><a href="Registration.html">Реєстрація</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <label for="inputText">Введіть текст:</label>
+            <textarea id="inputText"></textarea>
+            <button onclick="findMostRepeatedWords()">Знайти найбільш повторювані слова</button>
+            <p id="result"></p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Знайди найбільш повторювані слова. Всі права захищені.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
